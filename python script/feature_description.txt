@@ -1,0 +1,14 @@
+1. Tweet ID: The integer or string representation of the unique identifier for this Tweet. 
+2. timestamp: when the tweet was created(timestamp)
+3. Week: the day of week when the tweet was created
+4. user_id:  the id of the user who posted this Tweet
+5. state: which state the tweet was published (each state is represented as a integer)
+6. original text: The actual UTF-8 text of the status update
+7. with_emoji_text: remove all the entities(hashtags, urls, user_mentions, media, symbols) from original text (emojis remain)
+8. without_emoji_text: remove emoji from 'with_emoji_text'
+9. in_reply_to_status_id_str:  If the represented Tweet is a reply, this field will contain the string representation of the original Tweet’s ID.
+10. emoji: the emoji that the tweet contains
+11. hashtag: the hashtag(s) the tweet contains (ex WatchOutKiddos or [WatchOutKiddos, wheelin])
+12. media(type, url): ex. (photo, https://pbs.twimg.com/media/Bq37spaCEA) or [(photo, https://pbs.twimg.com/media/Bq37spaCEA),(photo, https://pbs.twimg.com/media/Bq37spaCEA)]
+13. user_mentions: Represents other Twitter users' id mentioned in the text of the Tweet. Ex 481315964794179584 or [481315964794179584, 481315964794179584]
+14. language
