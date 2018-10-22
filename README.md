@@ -1,4 +1,5 @@
 #  TwitterHealth
+<h3>Use NLP approaches to extract features relating to DIET and PHYSICAL ACTIVITY from real-time Twitter stream, and understand their temporal and spatial variation in the US. </h3>
 
 
 /notebooks/ : the directory for code demo
