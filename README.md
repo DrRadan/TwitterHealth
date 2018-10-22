@@ -3,10 +3,11 @@
 
 
 /notebooks/ : the directory for code demo
-1. Raw_Data_Process.ipynb: show how the data is processed from json fomrat to csv format
-2. statics_analysis.ipynb: show the statistic analysis in terms of the number and length of tweet, language, emojis, hashtags for different states.
-3.
-4.
+1. Raw_Data_Process.ipynb: shows how the data is processed from json fomrat to csv format
+2. statics_analysis.ipynb: shows the statistic analysis in terms of the number and length of tweet, language, emojis, hashtags for different states.
+3. Food_Nutrient_Report.ipynb: includes how to use USDA API to access food nutrient database and define food health scale indicator
+4. USDA_foodlist_Basic.ipynb: some data visualization on food nutrient by different category level
+5. tokenization + LDA.ipynb: tokenizes the text tata and runs LDA model at different scenario
 
 
 /pyhton script/: the code run on HPC
