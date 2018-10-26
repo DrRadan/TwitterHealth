@@ -8,7 +8,7 @@
 3. Food_Nutrient_Report.ipynb: includes how to use USDA API to access food nutrient database and define food health scale indicator
 4. USDA_foodlist_Basic.ipynb: some data visualization on food nutrient by different category level
 5. tokenization + LDA.ipynb: tokenizes the text tata and runs LDA model at different scenario
-6. NMF_Model_2015Data.ipynb: runs NMF model with 5 million tokenized tweets from 2015 to see its performance
+6. NMF_Model_2015Data.ipynb: runs NMF model with 5 million __tokenized tweets__ from 2015 to see its performance
 
 
 /pyhton script/: the code run on HPC
