@@ -9,6 +9,7 @@
 4. USDA_foodlist_Basic.ipynb: some data visualization on food nutrient by different category level
 5. tokenization + LDA.ipynb: tokenizes the text tata and runs LDA model at different scenario
 6. NMF_Model_2015Data.ipynb: runs NMF model with 5 million __tokenized tweets__ from 2015 to see its performance
+7. key_word_match.ipynb: a demo for key word serach(Aho–Corasick algorithm) and some analysis for the result
 
 
 /pyhton script/: the code run on HPC
@@ -17,3 +18,4 @@
 3. token_by_spark.py: using spark to do tokenization, stemming, and lemmatization
 4. token_by_whole_file.py: read entire csv file (require a lot of memeory) and then do tokenization, stemming, and lemmatization
 5. token_row_by_row.py: read a csv file row by row, for each row do tokenization, stemming, and lemmatization (require less memeory)
+6.key_word_process.py: read a csv file containing tweets and find whether the tweet mentions food or activity key words
