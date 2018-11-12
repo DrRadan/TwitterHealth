@@ -18,6 +18,7 @@
 13. [Week7, Oct29- Nov5]__Activity_Classifier_Random_Forest_new.ipynb__: uses random forest to predict whether a tweet contains activity or not
 14. [Week7, Oct29- Nov5]__resample_confidence_interval.ipynb__: add resampling confidence interval
 15. [Week8, Nov5-Nov11] __Run_Statistic.ipynb__: Applied the Kolmogorov-Smirnov test to each LDA model and visulization.
+16. [Week8, Nov5-Nov11] __day_of_week_change.ipynb__: How the frequency of tweet mentioning food and actitvity differs in terms of the 7 days of week
 
 
 /pyhton script/: the code run on HPC
