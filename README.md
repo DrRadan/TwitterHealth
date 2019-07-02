@@ -31,10 +31,11 @@
 
 ## Twitter Word2Vec
 ### Learn the distributed representation of Twitter text with word2vec.
-To create environment, run: <br>
+To create and activate conda virtual environment, run: <br>
 `conda create env -f Twitter_word2vec/environment.yml` <br>
+`conda activate twitter_w2v`
 To get word embeddings of Twitter text, run <br>
-`python get_embeddings.py`<br>
+`python ./Twitter_word2vec/get_embeddings.py`<br>
 
 ## Elasticsearch
 ### Information extraction over large quantities of twitter texts
@@ -47,6 +48,7 @@ Scripts under this directory is supposed to extract information from ~310 millio
 Check whether the elasticsearch instance is running by viewing `cat nohup.out`. Note that the cluster health will keep [yellow] during the entire process, because we are running only one elasticsearch node and none of the replica shards is initiated. For more information, check the [Shards & Replicas section](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/_basic_concepts.html) of elasticsearch documentation <br>
 3. Create the conda virtual environment for running elasticsearch on top of our task: <br>
 `conda create env -f elasticsearch/es.yml`<br>
+`conda activate es`
 4. [Optional] To run the jupyter notebook example, which is driven by pyspark-elasticsearch connector, download and unzip [spark-2.2.0](https://spark.apache.org/releases/spark-release-2-2-0.html) and [elasticsearch-hadoop-5.3.0](https://www.elastic.co/downloads/past-releases/elasticsearch-apache-hadoop-5-3-0), then run: <br>
 `PYSPARK_DRIVER_PYTHON="jupyter" PYSPARK_DRIVER_PYTHON_OPTS="notebook" <..>/spark-2.2.0-bin-hadoop2.7/bin/pyspark --driver-memory 4g --driver-class-path <..>/elasticsearch-hadoop-5.3.0/dist/elasticsearch-spark-20_2.11-5.3.0.jar`
 5. Preprocess the database by unzipping and stripping all the .json.zip files, run <br>
