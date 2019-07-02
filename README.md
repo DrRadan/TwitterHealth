@@ -54,7 +54,7 @@ Check whether the elasticsearch instance is running by viewing `cat nohup.out`. 
 6. Write the stripped json objects into the elasticsearch instance, run <br>
 `python ./elasticsearch/write_es.py`<br>
 Note that writing so many data into elasticsearch can be very time/memory consuming, and though `elasticsearch.helpers.parallel_bulk` can siginificantly speed up the process, do NOT set the `thread_count` and `chunk_size` too high, otherwise elasticsearch is under the risk of connection error or writing failure in the midway. 
-7. Searching over the keyword list <To be continued>
+7. Searching over the keyword list (To be continued)
 
 ### Tips for using elasticsearch
 1. Check index information: `curl -XGET 'localhost:9200/_cat/indices?v'`
