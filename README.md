@@ -59,7 +59,7 @@ Note that writing so many data into elasticsearch can be very time/memory consum
 7. Searching over the keyword list (To be continued)
 
 ### Tips for using elasticsearch
-1. Check index information: `curl -XGET 'localhost:9200/_cat/indices?v'`
+1. Check index information: `curl -X GET 'localhost:9200/_cat/indices?v'`
 2. Check shard states: `curl -X GET "localhost:9200/_cat/shards"`
 3. Check cluster health: `curl -X GET "localhost:9200/_cat/shards"`
 4. Check node info: `curl -XGET "localhost:9200/_nodes"`
