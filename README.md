@@ -1,5 +1,5 @@
-#TwitterHealth
-###Use NLP approaches to extract features relating to DIET and PHYSICAL ACTIVITY from real-time Twitter stream, and understand their temporal and spatial variation in the US.
+# TwitterHealth
+### Use NLP approaches to extract features relating to DIET and PHYSICAL ACTIVITY from real-time Twitter stream, and understand their temporal and spatial variation in the US.
 
 /notebooks/ : the directory for code demo
 1. [Week 1,2 Sep17-Oct2] __Activity_List_Specific.ipynb__: a more specific list of activity
@@ -29,15 +29,15 @@
 7. [Week 4 Oct8-Oct15] __Run_LDA.py__: run LDA topic modeling with different configurations.
 8. [Week7, Oct29- Nov5] __Run_LDAwithPlot.py__: Loading trained LDA model with different configurations and made plots for each model.
 
-##Twitter Word2Vec
-###Learn the distributed representation of Twitter text with word2vec.
+## Twitter Word2Vec
+### Learn the distributed representation of Twitter text with word2vec.
 To create environment, run: <br>
 `conda create env -f Twitter_word2vec/environment.yml` <br>
 To get word embeddings of Twitter text, run <br>
 `python get_embeddings.py`<br>
 
-##Elasticsearch
-###Information extraction over large quantities of twitter texts
+## Elasticsearch
+### Information extraction over large quantities of twitter texts
 Scripts under this directory is supposed to extract information from ~310 million twitter records. We use the python API of Elasticsearch to retrieve twitter texts by fuzzy keyword searching. Before running the scripts, make sure the following setups are done successfully: <br>
 1. Download the [elasticsearch 5.3.0](https://www.elastic.co/downloads/past-releases/elasticsearch-5-3-0) and unzip: <br>
 `tar -xzvf elasticsearch-5.3.0.tar.gz` <br>
@@ -56,7 +56,7 @@ Check whether the elasticsearch instance is running by viewing `cat nohup.out`. 
 Note that writing so many data into elasticsearch can be very time/memory consuming, and though `elasticsearch.helpers.parallel_bulk` can siginificantly speed up the process, do NOT set the `thread_count` and `chunk_size` too high, otherwise elasticsearch is under the risk of connection error or writing failure in the midway. 
 7. Searching over the keyword list <To be continued>
 
-###Tips for using elasticsearch
+### Tips for using elasticsearch
 1. Check index information: `curl -XGET 'localhost:9200/_cat/indices?v'`
 2. Check shard states: `curl -X GET "localhost:9200/_cat/shards"`
 3. Check cluster health: `curl -X GET "localhost:9200/_cat/shards"`
