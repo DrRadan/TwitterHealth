@@ -41,8 +41,8 @@ def get_f_list(year):
     return dict(zip(f_abb, f_abs))
 
 def main()
-    idx_name = 'twitter1415'
-    doc_type = 'tweets'
+    idx_name = 'twitter1415' # Name of elasticsearch index (NOTE: es index can't be changed later)
+    doc_type = 'tweets' # Set doc_type argument of the es index
     es = Elasticsearch() # create an elasticsearch instance
     print(es.info()) # check whether elasticsearch is working
 
