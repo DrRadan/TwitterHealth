@@ -33,7 +33,7 @@
 ### Learn the distributed representation of Twitter text with word2vec.
 To create and activate conda virtual environment, run: <br>
 `conda create env -f Twitter_word2vec/environment.yml` <br>
-`conda activate twitter_w2v`
+`conda activate twitter_w2v`<br>
 To get word embeddings of Twitter text, run <br>
 `python ./Twitter_word2vec/get_embeddings.py`<br>
 
