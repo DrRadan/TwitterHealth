@@ -31,14 +31,15 @@
 7. [Week 4 Oct8-Oct15] __Run_LDA.py__: run LDA topic modeling with different configurations.
 8. [Week7, Oct29- Nov5] __Run_LDAwithPlot.py__: Loading trained LDA model with different configurations and made plots for each model.
 
-#  Twitter Word2Vec
+## Twitter Word2Vec
 <h3>Learn the distributed representation of Twitter text with word2vec. </h3>
 To create environment, run: <br>
 `conda create env -f environment.yml` <br>
 To get word embeddings of Twitter text, run <br>
 `python get_embeddings.py`
 <br>
-# Elasticsearch
+
+## Elasticsearch
 <h3>Information extraction over large quantities of twitter texts</h3>
 Scripts under this directory is supposed to extract information from ~310 million twitter records. We use the python API of Elasticsearch to retrieve twitter texts by fuzzy keyword searching. Before running the scripts, make sure the following setups are done successfully: <br>
 1. Download the [elasticsearch 5.3.0](https://www.elastic.co/downloads/past-releases/elasticsearch-5-3-0) and unzip:
