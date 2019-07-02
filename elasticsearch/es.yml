@@ -1,0 +1,13 @@
+name: es
+
+dependencies:
+    - python=3.6
+    - numpy=1.16.0
+    - jupyter=1.0.0
+    - pip=19.0.3
+
+    - pip:
+        - tqdm==4.31.1
+        - smappdragon
+        - elasticsearch==5.3.0
+
