@@ -37,7 +37,7 @@ To create and activate conda virtual environment, run: <br>
 To get word embeddings of Twitter text, run <br>
 `python ./Twitter_word2vec/get_embeddings.py`<br>
 
-## Elasticsearch
+## Elasticsearch (Python API)
 ### Information extraction over large quantities of Twitter texts.
 Scripts under this directory is supposed to extract information from ~310 million twitter records. We use the python API of Elasticsearch to retrieve twitter texts by fuzzy keyword searching. Before running the scripts, make sure the following setups are done successfully: <br>
 1. Download the [elasticsearch 5.3.0](https://www.elastic.co/downloads/past-releases/elasticsearch-5-3-0) and unzip: <br>
